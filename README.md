@@ -14,3 +14,5 @@ This file is the main function, to print the result, please run this file in the
 * REPORT ONE(Top 3 articles): Get the selected results from table log and capture useful (begin with 9th character) slug as condition to select the titles from table articles, store the titles and views in the list to call the function print_top3_articles to print the report.
 * REPORT TWO(popular authors): First to create 2 views in database to get the valuable data(author id and total views for each id), then get the author's name from table authors by author id, store the names and views for each author in the list to call function print_pop_authors to print the report.
 * Report THREE(error percentage): First to create 1 view in database to get the counted error status for each day, the join the view with another table witch include the all counted status for each day, compute the percentage and call function print_error_percentage to print the report.
+### screenshots for the results
+![result](https://github.com/LeonLee85/analysis_tool/blob/master/result.png)
